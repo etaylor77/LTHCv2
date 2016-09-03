@@ -4,7 +4,7 @@ USE `labtech`;
 set global event_scheduler = 1;
 
 /* Drop Statements */
-DROP VIEW IF EXISTS `vxr_healthcheck`
+DROP VIEW IF EXISTS `vxr_healthcheck`;
 DROP VIEW IF EXISTS `v_plugin_lthc_ex_client`;
 DROP VIEW IF EXISTS `v_plugin_lthc_ex_computer` ;
 DROP VIEW IF EXISTS `v_plugin_lthc_score_client`;
